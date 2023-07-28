@@ -351,10 +351,6 @@ Sure! Here are 10 multiple-choice questions related to pandas DataFrames, along 
 # 3.0 Pandas Missing Data, along with their answers and justifications:
 Sure! Here are 10 multiple-choice questions related to handling missing data in pandas, along with their answer options and answers with reasons, in Markdown format:
 
----
-
-### Missing Data in Pandas MCQ Questions
-
 1. What is the purpose of the `dropna()` method in pandas?
 
    a) It drops rows containing NaN values from the DataFrame.
