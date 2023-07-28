@@ -349,5 +349,147 @@ Sure! Here are 10 multiple-choice questions related to pandas DataFrames, along 
     **Reason:** The `df.dtypes` attribute displays the data type of each column in the DataFrame.
 
 # 3.0 Pandas Missing Data, along with their answers and justifications:
+Sure! Here are 10 multiple-choice questions related to handling missing data in pandas, along with their answer options and answers with reasons, in Markdown format:
 
+---
+
+### Missing Data in Pandas MCQ Questions
+
+1. What is the purpose of the `dropna()` method in pandas?
+
+   a) It drops rows containing NaN values from the DataFrame.
+
+   b) It drops columns containing NaN values from the DataFrame.
+
+   c) It fills in missing data with a specified value.
+
+   d) It replaces NaN values with the mean of the column.
+
+   **Answer: a**
+
+   **Reason:** The `dropna()` method in pandas is used to drop rows containing NaN (missing) values from the DataFrame.
+
+2. How would you drop columns with missing data from the DataFrame `df`?
+
+   a) `df.dropna()`
+
+   b) `df.dropna(axis=0)`
+
+   c) `df.dropna(axis=1)`
+
+   d) `df.dropna(thresh=2)`
+
+   **Answer: c**
+
+   **Reason:** To drop columns with missing data from the DataFrame `df`, you can use the `df.dropna(axis=1)` method with `axis=1`.
+
+3. What does `thresh` refer to in the `dropna()` method?
+
+   a) It sets a threshold value for the mean of the column.
+
+   b) It determines the number of rows required to drop the column.
+
+   c) It specifies the number of non-NA values required to keep a row.
+
+   d) It fills in missing data with a specified value.
+
+   **Answer: c**
+
+   **Reason:** In the `dropna()` method, `thresh` specifies the number of non-NA values required to keep a row. Rows with fewer non-NA values than the specified threshold will be dropped.
+
+4. How would you fill in missing data in column 'B' of the DataFrame `df` with the value 0?
+
+   a) `df.fillna(0)`
+
+   b) `df['B'].fillna(0)`
+
+   c) `df.fillna(value=0)`
+
+   d) `df['B'].fillna(value=0)`
+
+   **Answer: d**
+
+   **Reason:** To fill in missing data in column 'B' of the DataFrame `df` with the value 0, you can use `df['B'].fillna(value=0)`.
+
+5. Suppose you want to fill in missing data in column 'A' of the DataFrame `df` with the mean of column 'A'. Which code will achieve this?
+
+   a) `df['A'].fillna(df.mean())`
+
+   b) `df['A'].fillna(value=df.mean())`
+
+   c) `df.fillna(df['A'].mean())`
+
+   d) `df.fillna(value=df['A'].mean())`
+
+   **Answer: a**
+
+   **Reason:** The code `df['A'].fillna(df.mean())` will fill in missing data in column 'A' of the DataFrame `df` with the mean of column 'A'.
+
+6. What does the `fillna()` method do when applied to the entire DataFrame without specifying a column?
+
+   a) It replaces NaN values with the mean of the DataFrame.
+
+   b) It fills in missing data with the previous non-missing value.
+
+   c) It fills in missing data with the next non-missing value.
+
+   d) It drops rows with missing data.
+
+   **Answer: a**
+
+   **Reason:** When applied to the entire DataFrame without specifying a column, the `fillna()` method fills in missing data in the DataFrame with the mean of the respective columns.
+
+7. What is the output of the following code: `df.dropna(thresh=2)`?
+
+   a) Rows with at least 2 non-NA values
+
+   b) Rows with less than 2 non-NA values
+
+   c) Columns with at least 2 non-NA values
+
+   d) Columns with less than 2 non-NA values
+
+   **Answer: a**
+
+   **Reason:** The code `df.dropna(thresh=2)` will output rows with at least 2 non-NA values. Rows with fewer than 2 non-NA values will be dropped.
+
+8. Suppose the DataFrame `df` contains a significant amount of missing data in various columns. Which method would be a suitable choice to remove the rows with missing data to ensure the data quality?
+
+   a) `df.dropna()`
+
+   b) `df.dropna(thresh=3)`
+
+   c) `df.fillna(value='FILL VALUE')`
+
+   d) `df.fillna(df.mean())`
+
+   **Answer: b**
+
+   **Reason:** The `df.dropna(thresh=3)` method will remove rows with missing data, but it requires at least 3 non-NA values in each row to keep it. This approach helps retain rows with a sufficient amount of non-missing data, ensuring better data quality.
+
+9. Which method is used to keep missing data in the DataFrame without making any changes?
+
+   a) `df.dropna()`
+
+   b) `df.fillna(value='FILL VALUE')`
+
+   c) `df.fillna(df.mean())`
+
+   d) `df`
+
+   **Answer: d**
+
+   **Reason:** Simply using the DataFrame `df` itself does not modify the original DataFrame. It keeps the missing data as is without making any changes.
+
+10. What is the purpose of the `dropna(axis=1)` method?
+
+    a) It drops columns containing NaN values from the DataFrame.
+
+    b) It fills in missing data with a specified value.
+
+    c) It removes rows containing NaN values from the DataFrame
+    
+**Answer: a**
+
+**Reason:** The `dropna(axis=1)` method is used to drop columns containing NaN (missing) values from the DataFrame. By specifying `axis=1`, the method operates along columns, removing any column that contains at least one NaN value.
 
