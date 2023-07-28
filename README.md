@@ -150,11 +150,6 @@
 
 # 2.0 NumPy Indexing and Selection, along with their answers and justifications:
 
-Sure! Here are 10 multiple-choice questions related to NumPy indexing and selection along with their answers and justifications in Markdown format:
-
----
-
-### NumPy Indexing and Selection MCQ Questions
 
 | Question                                                                                                                          | Answer | Justification                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------------------------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -171,8 +166,27 @@ Sure! Here are 10 multiple-choice questions related to NumPy indexing and select
 
 ---
 
-
-
 # 3.0 NumPy Operations, along with their answers and justifications:
+Sure! Here are 10 multiple-choice questions related to NumPy operations, along with their answers and justifications in Markdown format:
 
+---
+
+### NumPy Operations MCQ Questions
+
+| Question                                                                                                                                  | Answer | Justification                                                                                                                                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| What will be the output of `arr * arr` when `arr = np.arange(0,10)`?                                                                       | c) `array([ 0,  1,  4,  9, 16, 25, 36, 49, 64, 81])` | **Answer: c**<br>**Justification:** The expression `arr * arr` performs element-wise multiplication of the array `arr` with itself. This results in a new array where each element is the square of the corresponding element in `arr`.        |
+| What does the warning message "RuntimeWarning: divide by zero encountered in true_divide" indicate in the expression `arr/arr`?            | b) Division by zero in the array | **Answer: b**<br>**Justification:** The warning message indicates that there is a division by zero in the array `arr`. This results in the array having `nan` (Not a Number) values wherever the division by zero occurs.     |
+| What will be the output of `np.exp(arr)` when `arr = np.arange(0,10)`?                                                                     | c) `array([1.00000000e+00, 2.71828183e+00, 7.38905610e+00, 2.00855369e+01, 5.45981500e+01, 1.48413159e+02, 4.03428793e+02, 1.09663316e+03, 2.98095799e+03, 8.10308393e+03])` | **Answer: c**<br>**Justification:** The expression `np.exp(arr)` calculates the exponential (e^) of each element in the array `arr`. This results in a new array where each element is the exponential value of the corresponding element in `arr`. |
+| Which NumPy function can be used to calculate the square root of each element in the array `arr` when `arr = np.arange(0,10)`?              | a) `np.sqrt(arr)` | **Answer: a**<br>**Justification:** The function `np.sqrt()` calculates the square root of each element in the array `arr`, as demonstrated in the given example.                                                                          |
+| What is the output of `np.sin(arr)` when `arr = np.arange(0,10)`?                                                                          | d) `array([ 0.        ,  0.84147098,  0.90929743,  0.14112001, -0.7568025 , -0.95892427, -0.2794155 ,  0.6569866 ,  0.98935825,  0.41211849])` | **Answer: d**<br>**Justification:** The expression `np.sin(arr)` calculates the sine of each element in the array `arr`. This results in a new array where each element is the sine value of the corresponding element in `arr`.                  |
+| What will be the output of `arr_2d.sum(axis=0)` when `arr_2d = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])`?                             | b) `array([15, 18, 21, 24])` | **Answer: b**<br>**Justification:** The expression `arr_2d.sum(axis=0)` calculates the sum of elements along the vertical axis (axis=0) in the 2D array `arr_2d`. This results in a new 1D array with the sum of elements in each column.     |
+| What does the expression `arr.min()` return when `arr = np.arange(0,10)`?                                                                  | d) 0                | **Answer: d**<br>**Justification:** The expression `arr.min()` returns the minimum value in the array `arr`, which is 0 in this case, as `arr` starts from 0.                                                                            |
+| What will be the output of `arr.mean()` when `arr = np.arange(0,10)`?                                                                      | b) 4.5              | **Answer: b**<br>**Justification:** The expression `arr.mean()` calculates the mean (average) value of the elements in the array `arr`. In this case, the mean of `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]` is 4.5.                                          |
+| What does the expression `arr.var()` return when `arr = np.arange(0,10)`?                                                                   | c) 8.25             | **Answer: c**<br>**Justification:** The expression `arr.var()` returns the variance of the elements in the array `arr`. In this case, the variance of `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]` is 8.25.                                          |
+| What will be the output of `arr_2d.shape` when `arr_2d = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]])`?                                   | a) `(3, 4)`         | **Answer: a**<br>**Justification:** The expression `arr_2d.shape` returns the shape of the 2D array `arr_2d`, which is `(3, 4)` as it has 3 rows and 4 columns.                                                                    |
+
+---
+
+Good luck with your Certified Deep Learning Professional Exam! If you have any more questions or need further assistance, feel free to ask.
 
