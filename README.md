@@ -200,5 +200,154 @@
 | Which of the following data types can a pandas Series hold?                                                                                                | d) All of the above                          | **Answer: d**<br>**Justification:** A pandas Series can hold a wide variety of data types, including numeric data (integers, floats), strings, objects, functions, etc. It can virtually hold any arbitrary Python object, making it a versatile data structure for various types of data.                   |
 
 ---
+# 2.0 Pandas DataFrame, along with their answers and justifications:
+
+Sure! Here are 10 multiple-choice questions related to pandas DataFrames, along with their answer options and answers with reasons, in Markdown format:
+
+---
+
+### Pandas DataFrames MCQ Questions
+
+1. What are DataFrames in pandas?
+
+   a) DataFrames are inspired by the R programming language.
+
+   b) DataFrames consist of a single column of data.
+
+   c) DataFrames are two-dimensional data structures that share the same index.
+
+   d) DataFrames are one-dimensional arrays.
+
+   **Answer: c**
+
+   **Reason:** DataFrames in pandas are two-dimensional data structures that can be thought of as a bunch of Series objects put together to share the same index.
+
+2. How would you select the 'W' column from the DataFrame `df`?
+
+   a) `df['W']`
+
+   b) `df['column':'W']`
+
+   c) `df['column']['W']`
+
+   d) `df['W']['column']`
+
+   **Answer: a**
+
+   **Reason:** To select the 'W' column from the DataFrame `df`, you can use square bracket notation with the column name, like `df['W']`.
+
+3. What is the result of the code `df.iloc[0:2]`?
+
+   a) Rows with labels 0 and 2
+
+   b) Rows with integer index location 0 and 2
+
+   c) Rows from the 0th row up to (but not including) the 2nd row
+
+   d) Rows with integer index location 0 and 1
+
+   **Answer: d**
+
+   **Reason:** The code `df.iloc[0:2]` will output rows with integer index location 0 and 1 in the DataFrame `df`.
+
+4. What is the data type of the column 'X' in the DataFrame `df`?
+
+   a) int
+
+   b) str
+
+   c) float
+
+   d) bool
+
+   **Answer: a**
+
+   **Reason:** The data type of the column 'X' in the DataFrame `df` is `int32`, which is used to store 32-bit integer values.
+
+5. How would you create a new column 'Total' in the DataFrame `df` that sums the values of columns 'W' and 'Y'?
+
+   a) `df['Total'] = df['W'] + df['Y']`
+
+   b) `df['Total'] = df['W'].sum() + df['Y'].sum()`
+
+   c) `df['Total'] = df['W'].sum(axis=1) + df['Y'].sum(axis=1)`
+
+   d) `df['Total'] = df['W'] + df['Y']`
+
+   **Answer: a**
+
+   **Reason:** To create a new column 'Total' in the DataFrame `df` that sums the values of columns 'W' and 'Y', you can use the expression `df['Total'] = df['W'] + df['Y']`.
+
+6. What is the result of the code `df[df['Z'] > 0]`?
+
+   a) Rows where the value in column 'Z' is greater than 0
+
+   b) Values of column 'Z' where column 'Z' is greater than 0
+
+   c) Rows where the value in column 'Z' is True
+
+   d) Columns where the value in column 'Z' is greater than 0
+
+   **Answer: a**
+
+   **Reason:** The code `df[df['Z'] > 0]` performs conditional selection on the DataFrame `df`. It selects rows where the value in column 'Z' is greater than 0.
+
+7. Suppose you want to remove the row with the label 'E' from the DataFrame `df`. Which code will achieve this without modifying the original DataFrame?
+
+   a) `df.drop('E', inplace=False)`
+
+   b) `df.drop(index='E', inplace=True)`
+
+   c) `df.drop(index='E', inplace=False)`
+
+   d) `df.drop('E', axis=0, inplace=False)`
+
+   **Answer: a**
+
+   **Reason:** The code `df.drop('E', inplace=False)` will remove the row with the label 'E' from the DataFrame `df`. The `inplace=False` argument ensures that the original DataFrame remains unchanged, and the row with the label 'E' is dropped temporarily.
+
+8. How would you select the first three rows and the last two columns of the DataFrame `df` using integer index location?
+
+   a) `df.iloc[:3, -2:]`
+
+   b) `df.iloc[3:, -2:]`
+
+   c) `df.iloc[:2, -3:]`
+
+   d) `df.iloc[3:, :-2`
+
+   **Answer: a**
+
+   **Reason:** To select the first three rows and the last two columns of the DataFrame `df` using integer index location, you can use `df.iloc[:3, -2:]`.
+
+9. What does the `df.describe()` method provide?
+
+   a) Summary statistics on all numerical columns
+
+   b) Number of non-null values in each column
+
+   c) Data types of all columns
+
+   d) Mean and median values of each column
+
+   **Answer: a**
+
+   **Reason:** The `df.describe()` method provides summary statistics on all numerical columns of the DataFrame, including count, mean, standard deviation, minimum, 25th percentile, median (50th percentile), 75th percentile, and maximum values.
+
+10. Which method displays the data type of all columns in the DataFrame?
+
+    a) `df.info()`
+
+    b) `df.dtypes`
+
+    c) `df.describe()`
+
+    d) `df.head()`
+
+    **Answer: b**
+
+    **Reason:** The `df.dtypes` attribute displays the data type of each column in the DataFrame.
+
+# 3.0 Pandas Missing Data, along with their answers and justifications:
 
 
