@@ -1954,10 +1954,10 @@ Sure! Here are the questions and answers formatted in Markdown, with the answer 
       The process of updating the agent's knowledge about the environment based on experiences is known as:
   
       **Options:**
-      a) Exploration
-      b) Exploitation
-      c) Backpropagation
-      d) Learning
+      -a) Exploration
+      -b) Exploitation
+      -c) Backpropagation
+      -d) Learning
   
       **Answer:** d
     **Explanation:** The correct answer is **d**. The process of updating the agent's knowledge about the environment based on experiences is known as **Learning**. In the context of reinforcement learning, the agent learns from the feedback it receives (rewards) by updating its policy or value function to improve its decision-making and maximize long-term rewards.
