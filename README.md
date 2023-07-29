@@ -1719,6 +1719,9 @@ Sure! Here are the questions and answers formatted in Markdown, with the answer 
         **Answer:** c
     **Explanation:** The correct answer is **c**. Sequential data of varying lengths requires additional processing, such as padding or truncation, before being fed into an RNN. RNNs require fixed-length input sequences for efficient computation. However, real-world sequential data often comes in varying lengths. To handle this, the data must be preprocessed by either padding shorter sequences with zeros to match the length of the longest sequence or truncating longer sequences to a fixed length. This ensures that all sequences have the same length and can be fed into the RNN without issues.
 
+
+## Reinforcement Learning:
+
 1. **Question:**
     What is the main objective in Multi-Armed Bandits?
 
