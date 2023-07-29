@@ -1,5 +1,200 @@
 # Deep-Learning-Certified-Professional
 
+# From Questions Bank
+Sure! Here are the questions and answers formatted in Markdown, with the answer and justification part in bold:
+
+## Numpy:
+
+1. **Question:**
+   What is NumPy?
+
+   **Options:**
+   - a) A graphical user interface (GUI) library for Python
+   - b) A database management system
+   - c) **A scientific computing library for Python**
+   - d) A web development framework
+
+2. **Question:**
+   What is NumPy used for?
+
+   **Options:**
+   - a) Data visualization
+   - b) Machine learning
+   - c) **Numerical computing**
+   - d) Web development
+
+3. **Question:**
+   Which of the following is the correct way to import NumPy in Python?
+
+   **Options:**
+   - a) import np as numpy
+   - b) import np
+   - c) **import numpy as np**
+   - d) import Numpy
+
+4. **Question:**
+   Which of the following data structures is used in NumPy?
+
+   **Options:**
+   - a) List
+   - b) Set
+   - c) Tuple
+   - d) **ndarray (N-dimensional array)**
+
+5. **Question:**
+   What is the purpose of NumPy's "ndarray" object?
+
+   **Options:**
+   - a) To store and manipulate multidimensional arrays of homogeneous data
+   - b) To perform mathematical operations on strings
+   - c) To handle date and time data
+   - d) To create and display 2D graphics
+
+6. **Question:**
+   How can you create a 1D NumPy array from a Python list?
+
+   **Options:**
+   - a) numpy.array(list)
+   - b) numpy.array([list])
+   - c) numpy.array({list})
+   - d) **numpy.array(list())**
+
+7. **Question:**
+   What is the output of np.arange(1, 11, 2)?
+
+   **Options:**
+   - a) [1, 3, 5, 7, 9]
+   - b) [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+   - c) **[1, 3, 5, 7, 9]**
+   - d) [1, 4, 7, 10]
+
+8. **Question:**
+   How can you create an identity matrix of size 3x3 using NumPy?
+
+   **Options:**
+   - a) np.identity(3, 3)
+   - b) np.matrix(3)
+   - c) **np.eye(3, 3)**
+   - d) np.ones(3, 3)
+
+9. **Question:**
+   What is the output of np.identity(3)?
+
+   **Options:**
+   - a) [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+   - b) **[[1, 0, 0], [0, 1, 0], [0, 0, 1]]**
+   - c) [[1, 1, 1], [1, 1, 1], [1, 1, 1]]
+   - d) [[1, 2, 3], [2, 1, 2], [3, 2, 1]]
+
+10. **Question:**
+    What is the purpose of the np.linspace() function in NumPy?
+
+    **Options:**
+    - a) **To create an array with evenly spaced values**
+    - b) To generate random floating-point numbers within a specified range
+    - c) To create an array of random samples from a standard normal distribution
+    - d) To generate random integers within a specified range
+
+11. **Question:**
+    What is the purpose of the np.random.randn() function in NumPy?
+
+    **Options:**
+    - a) To generate random integers within a specified range
+    - b) To create an array with evenly spaced values
+    - c) **To create an array of random samples from a standard normal distribution**
+    - d) To generate random floating-point numbers within a specified range
+
+12. **Question:**
+    What does the shape attribute of a NumPy array represent?
+
+    **Options:**
+    - a) The number of elements in the array
+    - b) **The dimensions of the array**
+    - c) The data type of the elements in the array
+    - d) The mean of the array values
+
+13. **Question:**
+    What is the purpose of NumPy's reshape() function?
+
+    **Options:**
+    - a) To add new elements to the array
+    - b) To change the data type of the array elements
+    - c) **To modify the dimensions of the array**
+    - d) To calculate the mean of the array values
+
+14. **Question:**
+    How can you find the indices of the maximum values in a NumPy array arr?
+
+    **Options:**
+    - a) **np.argmax(arr)**
+    - b) np.max_indices(arr)
+    - c) arr.max_indices()
+    - d) max_indices(arr)
+
+15. **Question:**
+    Which NumPy function is used to calculate the mean of an array?
+
+    **Options:**
+    - a) **np.mean()**
+    - b) np.median()
+    - c) np.average()
+    - d) np.sum()
+
+16. **Question:**
+    Which NumPy function is used to create an array which returns evenly spaced numbers over a specified interval?
+
+    **Options:**
+    - a) linspace()
+    - b) array()
+    - c) range()
+    - d) spaced()
+
+17. **Question:**
+    What is the purpose of the np.random.seed() function in NumPy?
+
+    **Options:**
+    - a) Generate random numbers
+    - b) **Set a specific random seed for reproducibility**
+    - c) Initialize all elements of an array to a random value
+    - d) Shuffle the elements of an array randomly
+
+18. **Question:**
+    Which NumPy function is used to find the index of the minimum value in an array?
+
+    **Options:**
+    - a) **np.argmin()**
+    - b) np.minindex()
+    - c) np.min_value()
+    - d) np.find_min()
+
+
+19. **Question:**
+What is the result of np.arange(5) * 2?
+
+Options:
+
+a) [0, 2, 4, 6, 8]
+b) [0, 1, 2, 3, 4]
+c) [1, 2, 3, 4, 5]
+d) [0, 0, 0, 0, 0]
+Answer: a
+Explanation: The result of np.arange(5) * 2 is [0, 2, 4, 6, 8]. np.arange(5) creates an array with values [0, 1, 2, 3, 4], and then multiplying each element by 2 gives the result [0, 2, 4, 6, 8].
+
+Question:
+How can you get the total number of elements in a NumPy array named data?
+
+Options:
+
+a) data.size()
+b) data.length
+c) len(data)
+d) data.shape
+Answer: a
+Explanation: To get the total number of elements in a NumPy array, you can use the .size() attribute of the array. So, the correct option is a) data.size(). This will return the total number of elements present in the array named 'data'.
+
+Please note that the explanation provided for each answer is based on the knowledge of NumPy. Make sure to verify the correctness of the explanations using the latest NumPy documentation if necessary.
+
+
 # 1.0 NumPy, along with their answers and justifications:
 
 ### NumPy MCQ Questions
@@ -718,3 +913,253 @@ Sure! Here are the questions and answers formatted in Markdown, with the answer 
     **Explanation:** K-Nearest Neighbors (KNN) doesn't require a training phase. It is a lazy learning algorithm where the model directly performs predictions at the time of testing. The algorithm simply stores the training data points and their corresponding labels, and during prediction, it calculates the distances to find the K nearest neighbors.
 
 
+Sure! Here are the questions and answers formatted in Markdown, with the answer and explanation parts in bold:
+
+## 1.0 Extra – Theory RNN, along with their answers and justifications:
+
+1. **Question:**
+   What is the key feature that distinguishes Recurrent Neural Networks (RNN) from traditional feedforward neural networks?
+
+   **Options:**
+   - A. RNNs can handle sequential data and maintain hidden states.
+   - B. RNNs have a larger number of layers compared to feedforward networks.
+   - C. RNNs use more advanced activation functions like ReLU and Tanh.
+   - D. RNNs are designed specifically for computer vision tasks.
+
+   **Answer: A**
+   **Explanation:** The key feature of RNNs is their ability to handle sequential data and maintain hidden states over time. This recurrent connection allows RNNs to process sequences of inputs, making them suitable for tasks like time series analysis and natural language processing.
+
+2. **Question:**
+   In the context of language modeling, what is the purpose of the hidden state in an RNN?
+
+   **Options:**
+   - A. To store the output probabilities of the language model.
+   - B. **To capture the long-term dependencies in the input text.**
+   - C. To represent the input sequence as a fixed-size vector.
+   - D. To reduce the computational complexity of the language model.
+
+   **Answer: B**
+   **Explanation:** The hidden state in an RNN is responsible for capturing the long-term dependencies in the input text. It acts as memory and retains information about the preceding elements in the sequence, enabling the model to learn contextual information in language modeling tasks.
+
+3. **Question:**
+   What is the vanishing gradient problem in RNNs?
+
+   **Options:**
+   - A. The problem of the hidden state growing too large during training.
+   - B. The problem of the loss function getting stuck in a local minimum.
+   - C. The problem of the hidden state values becoming negative.
+   - D. **The problem of gradients becoming too small during backpropagation.**
+
+   **Answer: D**
+   **Explanation:** The vanishing gradient problem in RNNs occurs when the gradients used for updating the model's parameters become too small during backpropagation. This hinders the learning process, especially for long sequences, as the model struggles to propagate useful information over time.
+
+4. **Question:**
+   Which variant of RNN addresses the vanishing gradient problem by using a gating mechanism?
+
+   **Options:**
+   - A. Long Short-Term Memory (LSTM)
+   - B. Gated Recurrent Unit (GRU)
+   - C. Bidirectional RNN
+   - D. Elman RNN
+
+   **Answer: A**
+   **Explanation:** Long Short-Term Memory (LSTM) is an RNN variant that addresses the vanishing gradient problem by using a gating mechanism. The LSTM cell uses gates to control the flow of information, allowing it to retain long-term dependencies and mitigate the vanishing gradient issue.
+
+5. **Question:**
+   What does the "Bidirectional" in Bidirectional RNN (BiRNN) refer to?
+
+   **Options:**
+   - A. BiRNN has two separate hidden layers for forward and backward processing.
+   - B. BiRNN can process both sequential and non-sequential data.
+   - C. BiRNN can handle bidirectional sequences with different lengths.
+   - D. **BiRNN reads the input sequence in both forward and backward directions.**
+
+   **Answer: D**
+   **Explanation:** The "Bidirectional" in Bidirectional RNN (BiRNN) refers to the ability of the model to read the input sequence in both forward and backward directions. This allows BiRNN to capture information from past and future elements in the sequence, making it effective for tasks that require context from both directions.
+
+6. **Question:**
+   In machine translation using RNNs, what is the typical approach to handling variable-length input and output sequences?
+
+   **Options:**
+   - A. Truncate longer sequences to match the length of the shortest sequence.
+   - B. Pad shorter sequences with zeros to match the length of the longest sequence.
+   - C. Use a fixed-size encoding for all input sequences.
+   - D. Convert all sequences to the same length using feature extraction.
+
+   **Answer: B**
+   **Explanation:** In machine translation using RNNs, the typical approach to handling variable-length input and output sequences is to pad shorter sequences with zeros to match the length of the longest sequence. This ensures that all sequences can be processed in batches during training.
+
+7. **Question:**
+   What is the main advantage of using an RNN over a traditional feedforward neural network for sequential data?
+
+   **Options:**
+   - A. RNNs require fewer parameters, making them more memory-efficient.
+   - B. **RNNs can handle sequences of varying lengths, unlike feedforward networks.**
+   - C. RNNs have faster training times due to their recurrent connections.
+   - D. RNNs have a higher level of interpretability in their predictions.
+
+   **Answer: B**
+   **Explanation:** The main advantage of using an RNN over a traditional feedforward neural network for sequential data is that RNNs can handle sequences of varying lengths. The recurrent connections in RNNs allow them to process inputs with temporal dependencies, which is crucial for tasks like time series analysis and natural language processing.
+
+8. **Question:**
+   Which type of RNN architecture allows information to skip connections and directly flow across different time steps?
+
+   **Options:**
+   - A. One-to-Many RNN
+   - B. Many-to-One RNN
+   - C. One-to-One RNN
+   - D. **Many-to-Many RNN**
+
+   **Answer: D**
+   **Explanation:** The Many-to-Many RNN architecture allows information to flow across different time steps. It is used for tasks that have both variable-length input and output sequences, such as sequence-to-sequence tasks like machine translation.
+
+9. **Question:**
+   What is the purpose of using Teacher Forcing in the training of an RNN for sequence generation?
+
+   **Options:**
+   - A. To use a larger learning rate during training to speed up convergence.
+   - B. To encourage the model to generate more diverse and creative sequences.
+   - C. **To provide the true output sequence as input during training for better learning.**
+   - D. To prevent overfitting by randomly dropping out neurons during training.
+
+   **Answer: C**
+   **Explanation:** Teacher Forcing is used in the training of an RNN for sequence generation to provide the true output sequence as input during training. This helps the model to learn correct dependencies and improve convergence during training.
+
+10. **Question:**
+    In which scenario is an RNN generally not suitable?
+
+    **Options:**
+    - A. **Image classification tasks.**
+    - B. Time series forecasting.
+    - C. Natural language processing tasks.
+    - D. Sequential data with very long dependencies.
+
+    **Answer: A**
+    **Explanation:** An RNN is generally not suitable for image classification tasks. CNNs are commonly used for image-related tasks due to their ability to learn hierarchical features from the spatial information in images, which R
+
+Sure! Here are the questions and answers formatted in Markdown, with the answer and explanation parts in bold:
+
+## 1.0 Extra – Theory CNN, along with their answers and justifications:
+
+1. **Question:**
+   What is the primary advantage of using Convolutional Neural Networks (CNN) for image recognition tasks?
+
+   **Options:**
+   - A. CNNs require less computational power compared to other architectures.
+   - B. CNNs can handle sequential data, such as time series and natural language.
+   - C. **CNNs automatically learn relevant features from the input images.**
+   - D. CNNs are more interpretable and transparent in their decision-making.
+
+   **Answer: C**
+   **Explanation:** The primary advantage of CNNs is their ability to automatically learn relevant features (e.g., edges, textures) from the input images. This enables CNNs to capture hierarchical representations of the visual data and improve image recognition performance.
+
+2. **Question:**
+   What is the purpose of the Convolutional operation in a CNN?
+
+   **Options:**
+   - A. **To compute the weighted sum of input features and biases.**
+   - B. To pool and downsample the feature maps.
+   - C. To apply non-linear activation functions to the input data.
+   - D. To extract local patterns and detect features in the input images.
+
+   **Answer: A**
+   **Explanation:** The Convolutional operation in a CNN is used to compute the weighted sum of input features and biases. It involves sliding a filter/kernel over the input data to perform element-wise multiplication and summation.
+
+3. **Question:**
+   In CNNs, what is the role of Pooling layers?
+
+   **Options:**
+   - A. To reduce the number of channels in the feature maps.
+   - B. To add more layers and increase the model's depth.
+   - C. **To reduce the spatial dimensions of the feature maps while retaining important information.**
+   - D. To connect all neurons from the previous layer to the current layer.
+
+   **Answer: C**
+   **Explanation:** Pooling layers in CNNs are used to reduce the spatial dimensions of the feature maps while retaining important information. Common pooling techniques include max pooling and average pooling, which help to downsample the feature maps.
+
+4. **Question:**
+   What is the purpose of using Padding in CNNs?
+
+   **Options:**
+   - A. To increase the number of channels in the feature maps.
+   - B. To add more layers and increase the model's depth.
+   - C. **To increase the spatial dimensions of the feature maps.**
+   - D. To preserve the spatial resolution of the feature maps after convolution.
+
+   **Answer: C**
+   **Explanation:** Padding in CNNs is used to increase the spatial dimensions of the feature maps. It involves adding extra border pixels around the input image or feature maps to ensure that the convolution operation does not shrink the spatial dimensions.
+
+5. **Question:**
+   What is the typical activation function used in the hidden layers of a CNN?
+
+   **Options:**
+   - A. **ReLU (Rectified Linear Unit)**
+   - B. Sigmoid
+   - C. Tanh (Hyperbolic Tangent)
+   - D. Softmax
+
+   **Answer: A**
+   **Explanation:** The Rectified Linear Unit (ReLU) activation function is commonly used in the hidden layers of a CNN. ReLU introduces non-linearity, allowing the network to learn complex patterns effectively.
+
+6. **Question:**
+   What is the purpose of the Flatten layer in CNNs?
+
+   **Options:**
+   - A. To increase the number of channels in the feature maps.
+   - B. To apply non-linear activation functions to the input data.
+   - C. **To convert the multi-dimensional feature maps into a one-dimensional vector.**
+   - D. To extract global patterns and detect features in the input images.
+
+   **Answer: C**
+   **Explanation:** The Flatten layer in CNNs is used to convert the multi-dimensional feature maps (e.g., 2D spatial maps) into a one-dimensional vector. This allows the data to be passed to fully connected layers for further processing.
+
+7. **Question:**
+   Which layer in a CNN is responsible for learning the weights and biases during the training process?
+
+   **Options:**
+   - A. Convolutional Layer
+   - B. Pooling Layer
+   - C. **Fully Connected Layer**
+   - D. Activation Layer
+
+   **Answer: C**
+   **Explanation:** The Fully Connected Layer is responsible for learning the weights and biases during the training process. It connects every neuron from the previous layer to every neuron in the current layer.
+
+8. **Question:**
+   What is the purpose of using Dropout in CNNs?
+
+   **Options:**
+   - A. **To prevent overfitting by randomly dropping out neurons during training.**
+   - B. To increase the number of channels in the feature maps.
+   - C. To add more layers and increase the model's depth.
+   - D. To apply non-linear activation functions to the input data.
+
+   **Answer: A**
+   **Explanation:** Dropout in CNNs is used to prevent overfitting. It randomly drops out neurons during training, reducing their reliance on specific features and promoting better generalization to new, unseen data.
+
+9. **Question:**
+   Which layer in a CNN is responsible for reducing the spatial dimensions of the feature maps?
+
+   **Options:**
+   - A. Convolutional Layer
+   - B. **Pooling Layer**
+   - C. Fully Connected Layer
+   - D. Activation Layer
+
+   **Answer: B**
+   **Explanation:** The Pooling Layer is responsible for reducing the spatial dimensions of the feature maps. It downsamples the feature maps while retaining important information, helping to reduce computational complexity.
+
+10. **Question:**
+    In CNNs, what is the purpose of the Output Layer?
+
+    **Options:**
+    - A. To apply non-linear activation functions to the input data.
+    - B. To compute the weighted sum of input features and biases.
+    - C. **To produce the final predictions or outputs of the network.**
+    - D. To reduce the spatial dimensions of the feature maps.
+
+    **Answer: C**
+    **Explanation:** The Output Layer in CNNs produces the final predictions or outputs of the network. It often uses an appropriate activation function based on the nature of the problem, such as S
+
+
+    
