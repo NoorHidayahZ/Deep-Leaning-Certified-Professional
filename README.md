@@ -497,6 +497,255 @@ Sure! Here are the questions and answers formatted in Markdown, with the answer 
     **Answer:** c
     **Explanation:** The purpose of the `transpose()` method in pandas is to switch rows and columns in a DataFrame. It returns a new DataFrame with rows and columns interchanged, effectively transposing the data.
     
+
+## Matplotlib and Seaborn:
+
+1. **Question:**
+    What is Matplotlib used for?
+
+    **Options:**
+    - a) Data manipulation
+    - b) Web development
+    - c) Data visualization
+    - d) Machine learning
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Matplotlib is a powerful Python library used for data visualization. It provides various functions and tools to create a wide range of static, interactive, and animated plots, charts, and graphs to represent data in a visually appealing way.
+
+2. **Question:**
+    To import Matplotlib in Python, you use the following statement:
+
+    **Options:**
+    - a) import matplotlib
+    - b) import matplotlib.pyplot
+    - c) from matplotlib import pyplot
+    - d) All the above
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. You can import Matplotlib in Python using any of the following statements:
+    - `import matplotlib`: This imports the entire Matplotlib library, but you need to use the `matplotlib.pyplot` namespace to access most of its plotting functions.
+    - `import matplotlib.pyplot`: This imports the `pyplot` module from Matplotlib, which is commonly used for creating static plots.
+    - `from matplotlib import pyplot`: This imports the `pyplot` module from Matplotlib, and you can directly use the functions from the `pyplot` namespace.
+
+3. **Question:**
+    Which Matplotlib function is used to create a line plot?
+
+    **Options:**
+    - a) plot()
+    - b) scatter()
+    - c) bar()
+    - d) hist()
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. The `plot()` function in Matplotlib is used to create a line plot. It is commonly used to visualize the relationship between two variables, where one variable is represented on the x-axis, and the other variable is represented on the y-axis.
+
+4. **Question:**
+    Which Matplotlib function is used to create a histogram?
+
+    **Options:**
+    - a) hist()
+    - b) plot.hist()
+    - c) plt.plot_histogram()
+    - d) plt.hist()
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. The `plt.hist()` function is used to create a histogram in Matplotlib. A histogram is a graphical representation of the distribution of numerical data, and it consists of a series of bins representing different intervals of data.
+
+5. **Question:**
+    Which Matplotlib function is used to create a scatter plot?
+
+    **Options:**
+    - a) plt.scatter()
+    - b) scatterplot()
+    - c) plt.plot.scatter()
+    - d) plt.scatterplot()
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. The `plt.scatter()` function is used to create a scatter plot in Matplotlib. A scatter plot is used to visualize the relationship between two numerical variables by representing individual data points as dots.
+
+6. **Question:**
+    In Matplotlib, how do you add a title to a plot?
+
+    **Options:**
+    - a) plot.title("Title")
+    - b) plot.add_title("Title")
+    - c) plt.set_title("Title")
+    - d) plt.title("Title")
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. To add a title to a plot in Matplotlib, you use the `plt.title("Title")` function. This function allows you to specify the title text, which will be displayed at the top of the plot.
+
+7. **Question:**
+    What is the purpose of the `xlabel()` and `ylabel()` functions in Matplotlib?
+
+    **Options:**
+    - a) To set the title of the plot
+    - b) To label the x-axis and y-axis of the plot
+    - c) To change the background color of the plot
+    - d) To control the font size of the plot
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. The `xlabel()` and `ylabel()` functions in Matplotlib are used to label the x-axis and y-axis of the plot, respectively. These functions allow you to provide a descriptive label for each axis, making the plot more informative and easier to understand.
+
+8. **Question:**
+    Which Matplotlib function is used to add a legend to a plot?
+
+    **Options:**
+    - a) legend()
+    - b) label()
+    - c) annotate()
+    - d) title()
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. The `legend()` function in Matplotlib is used to add a legend to a plot. A legend provides an explanation of the different elements in the plot, such as the labels for different lines or markers.
+
+9. **Question:**
+    What does the `color` parameter in Matplotlib functions control?
+
+    **Options:**
+    - a) The background color of the plot.
+    - b) The color of the lines or markers in the plot.
+    - c) The color of the grid lines.
+    - d) The color of the plot's axes.
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. The `color` parameter in Matplotlib functions controls the color of the lines or markers in the plot. It allows you to specify the color using various formats, such as strings (e.g., "red", "blue"), RGB tuples, or hexadecimal codes.
+
+10. **Question:**
+    How can you save a Matplotlib plot as an image file?
+
+    **Options:**
+    - a) Using the `save()` function
+    - b) Using the `save_image()` function
+    - c) Using the `savefig()` function
+    - d) Using the `save_plot()` function
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. You can save a Matplotlib plot as an image file using the `savefig()` function. This function allows you to specify the filename and file format (e.g., PNG, JPEG, SVG) for the saved image. For example, `plt.savefig('plot.png')` will save the plot as a PNG image file with the filename "plot.png".
+
+## Seaborn:
+
+11. **Question:**
+    Seaborn is built on top of which Python data visualization library?
+
+    **Options:**
+    - a) NumPy
+    - b) Plotly
+    - c) Matplotlib
+    - d) Pandas
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Seaborn is built on top of the Matplotlib library. While Seaborn provides a high-level interface for creating attractive statistical graphics, it still relies on Matplotlib for rendering the plots.
+
+12. **Question:**
+    What is Seaborn primarily used for?
+
+    **Options:**
+    - a) Data manipulation
+    - b) Machine learning
+    - c) Data visualization
+    - d) Web development
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Seaborn is primarily used for data visualization. It is a powerful Python library that provides a high-level interface for creating informative and visually appealing statistical graphics. Seaborn is particularly well-suited for visualizing complex relationships between variables in datasets.
+
+13. **Question:**
+    The hue parameter in Seaborn functions is used to:
+
+    **Options:**
+    - a) Set the color of the plot.
+    - b) Change the style of the plot.
+    - c) Add a legend to the plot.
+    - d) Group the data by a categorical variable.
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. The hue parameter in Seaborn functions is used to group the data by a categorical variable. When using hue, Seaborn creates separate subgroups within the plot based on the unique values of the specified categorical variable. This is useful for comparing distributions or relationships across different categories.
+
+14. **Question:**
+    Which Seaborn function is used to create a pair plot for multiple numeric variables?
+
+    **Options:**
+    - a) `sns.pairplot()`
+    - b) `seaborn.pairplot()`
+    - c) `seaborn.plot_pair()`
+    - d) `sns.plot_pairplot()`
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. The `sns.pairplot()` function is used to create a pair plot in Seaborn. A pair plot shows the relationships between multiple numeric variables in a dataset. It creates scatter plots for each pair of variables and histograms on the diagonal to visualize the distribution of each variable.
+
+15. **Question:**
+    How do you create a heatmap using Seaborn?
+
+    **Options:**
+    - a) `seaborn.heatmap()`
+    - b) `seaborn.create_heatmap()`
+    - c) `sns.heatmap()` (Correct Answer)
+    - d) `sns.create_heatmap()`
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. You create a heatmap using Seaborn's `sns.heatmap()` function. A heatmap is a graphical representation of data where individual values are represented as colors in a grid. It is useful for visualizing relationships and patterns in datasets.
+
+16. **Question:**
+    How do you create a box plot using Seaborn?
+
+    **Options:**
+    - a) `sns.box_plot()`
+    - b) `seaborn.box()`
+    - c) `seaborn.create_boxplot()`
+    - d) `sns.boxplot()`
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. To create a box plot in Seaborn, you use the `sns.boxplot()` function. A box plot is used to display the distribution and spread of numerical data and to identify any outliers in the data.
+
+17. **Question:**
+    Which Seaborn function is used to create a bar plot?
+
+    **Options:**
+    - a) `sns.barplot()`
+    - b) `seaborn.bar()`
+    - c) `seaborn.plot_bar()`
+    - d) `sns.bar_plot()`
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. The `sns.barplot()` function is used to create a bar plot in Seaborn. A bar plot is used to represent categorical data with rectangular bars, where the length of each bar corresponds to the value of the category.
+
+18. **Question:**
+    What function in Seaborn is used to create a histogram?
+
+    **Options:**
+    - a) `seaborn.histogram()`
+    - b) `seaborn.hist()`
+    - c) `seaborn.plot_histogram()`
+    - d) `sns.histplot()`
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. The function used to create a histogram in Seaborn is `sns.histplot()`. A histogram is used to visualize the distribution of a single numerical variable.
+
+19. **Question:**
+    Which Seaborn function is used to create a scatter plot?
+
+    **Options:**
+    - a) `seaborn.scatterplot()`
+    - b) `seaborn.scatter()`
+    - c) `seaborn.plot_scatter()`
+    - d) `sns.scatterplot()`
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. The function used to create a scatter plot in Seaborn is `sns.scatterplot()`. A scatter plot is used to visualize the relationship between two numerical variables.
+
+20. **Question:**
+    The `palette` parameter in Seaborn functions is used to:
+
+    **Options:**
+    - a) Set the background color of the plot.
+    - b) Change the order of the data in the plot.
+    - c) Set the style of the plot.
+    - d) Specify the color palette for the plot.
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. The `palette` parameter in Seaborn functions is used to specify the color palette for the plot. A color palette is a set of colors that can be applied to the elements in the plot, such as bars, lines, or points. By using different palettes, you can customize the appearance of the plot and make it visually appealing.
+
+
 -----
 
 # 1.0 NumPy, along with their answers and justifications:
