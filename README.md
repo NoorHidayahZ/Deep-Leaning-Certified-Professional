@@ -603,4 +603,118 @@ Sure! Here are the questions and answers formatted in Markdown:
     Answer: D
     Explanation: The primary advantage of using a Markov Decision Process (MDP) in Reinforcement Learning (RL) is that it models the environment as a Markov process with memoryless transitions. This allows RL algorithms to efficiently estimate value functions and policy without needing to remember the complete history of past states and actions.
 
-    
+Sure! Here are the questions and answers formatted in Markdown, with the answer and explanation parts in bold:
+
+## 1.0 Extra – Theory ML Regression & KNN, along with their answers and justifications:
+
+1. Linear Regression Question:
+   Which of the following is a primary objective of linear regression?
+   Options:
+   - A. To classify data into different categories.
+   - B. To find the optimal number of clusters in the data.
+   - C. **To predict a continuous numeric value based on input features.**
+   - D. To identify outliers in the dataset.
+
+   **Answer: C**
+   **Explanation:** The primary objective of linear regression is to predict a continuous numeric value (the dependent variable) based on one or more input features (the independent variables).
+
+2. K-Nearest Neighbors (KNN) Question:
+   What is the role of the parameter "K" in K-Nearest Neighbors (KNN) algorithm?
+   Options:
+   - A. K determines the number of features used in the prediction.
+   - B. K is the distance threshold for identifying outliers in the data.
+   - C. K specifies the number of clusters to be formed in the dataset.
+   - D. **K represents the number of nearest neighbors to consider for prediction.**
+
+   **Answer: D**
+   **Explanation:** In K-Nearest Neighbors (KNN) algorithm, "K" represents the number of nearest neighbors to consider for prediction. The algorithm looks for the "K" data points closest to the query point and assigns the majority class label (in classification) or calculates the average (in regression) as the prediction based on these neighbors.
+
+3. Linear Regression Question:
+   What is the key assumption behind linear regression modeling?
+   Options:
+   - A. **The relationship between the independent and dependent variables is linear.**
+   - B. The data should be labeled with class labels for supervised learning.
+   - C. The data should be normalized to have zero mean and unit variance.
+   - D. The number of independent variables should be greater than the number of data points.
+
+   **Answer: A**
+   **Explanation:** The key assumption behind linear regression is that there is a linear relationship between the independent variables and the dependent variable. It assumes that the change in the dependent variable is proportional to the change in the independent variables.
+
+4. K-Nearest Neighbors (KNN) Question:
+   Which distance metric is commonly used in K-Nearest Neighbors (KNN) for continuous numerical data?
+   Options:
+   - A. Manhattan distance (L1 distance)
+   - B. **Euclidean distance (L2 distance)**
+   - C. Hamming distance
+   - D. Jaccard distance
+
+   **Answer: B**
+   **Explanation:** In K-Nearest Neighbors (KNN) for continuous numerical data, the commonly used distance metric is the Euclidean distance (L2 distance). It calculates the straight-line distance between two points in a multi-dimensional space.
+
+5. Linear Regression Question:
+   What is the purpose of the cost function in linear regression?
+   Options:
+   - A. **To measure the accuracy of the model's predictions.**
+   - B. To find the optimal number of features for the model.
+   - C. To identify the outliers in the dataset.
+   - D. To measure the complexity of the model.
+
+   **Answer: A**
+   **Explanation:** The cost function in linear regression measures the difference between the predicted values and the actual target values. It quantifies the error of the model's predictions and helps in finding the optimal model parameters that minimize this error.
+
+6. K-Nearest Neighbors (KNN) Question:
+   Which step is crucial before applying the K-Nearest Neighbors (KNN) algorithm to a dataset?
+   Options:
+   - A. **Feature scaling and normalization.**
+   - B. Feature selection using LASSO regression.
+   - C. Imputing missing values in the dataset.
+   - D. Transforming the dataset to a lower-dimensional space.
+
+   **Answer: A**
+   **Explanation:** Feature scaling and normalization are crucial steps before applying the K-Nearest Neighbors (KNN) algorithm to a dataset. KNN relies on distance calculations, and differences in feature scales can dominate the distance computation, leading to biased predictions.
+
+7. Linear Regression Question:
+   In multiple linear regression, what is the primary purpose of coefficient estimation?
+   Options:
+   - A. To determine the number of independent variables to include in the model.
+   - B. To identify the target variable for prediction.
+   - C. To find the values that minimize the cost function.
+   - D. **To quantify the impact of each independent variable on the dependent variable.**
+
+   **Answer: D**
+   **Explanation:** In multiple linear regression, the primary purpose of coefficient estimation is to quantify the impact of each independent variable on the dependent variable. The coefficients represent the change in the dependent variable corresponding to a one-unit change in the respective independent variable while holding other variables constant.
+
+8. K-Nearest Neighbors (KNN) Question:
+   What is the role of the hyperparameter "K" in K-Nearest Neighbors (KNN)?
+   Options:
+   - A. K controls the number of features used for prediction.
+   - B. K determines the learning rate during model training.
+   - C. K specifies the number of clusters in the dataset.
+   - D. **K sets the number of neighbors to consider for prediction.**
+
+   **Answer: D**
+   **Explanation:** The hyperparameter "K" in K-Nearest Neighbors (KNN) sets the number of neighbors to consider for prediction. A larger value of "K" smoothens the decision boundary and reduces the risk of overfitting, while a smaller value may lead to higher variance in predictions.
+
+9. Linear Regression Question:
+   What is the most common method used for finding the best-fit line in linear regression?
+   Options:
+   - A. **Gradient Descent**
+   - B. Decision Tree
+   - C. Principal Component Analysis (PCA)
+   - D. Expectation-Maximization (EM)
+
+   **Answer: A**
+   **Explanation:** The most common method used for finding the best-fit line in linear regression is Gradient Descent. It is an optimization algorithm that iteratively adjusts the model's parameters to minimize the cost function and find the line that best fits the data.
+
+10. K-Nearest Neighbors (KNN) Question:
+    Which of the following statements is true about the training phase in K-Nearest Neighbors (KNN)?
+    Options:
+    - A. **KNN doesn't require a training phase; it directly performs predictions.**
+    - B. The training phase involves finding the optimal value of hyperparameter K.
+    - C. In the training phase, the model learns the decision boundary from the data.
+    - D. KNN training phase consists of sorting the training data based on the target variable.
+
+    **Answer: A**
+    **Explanation:** K-Nearest Neighbors (KNN) doesn't require a training phase. It is a lazy learning algorithm where the model directly performs predictions at the time of testing. The algorithm simply stores the training data points and their corresponding labels, and during prediction, it calculates the distances to find the K nearest neighbors.
+
+
