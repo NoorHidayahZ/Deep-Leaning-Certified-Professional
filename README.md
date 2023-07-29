@@ -489,3 +489,118 @@ Sure! Here are 10 multiple-choice questions related to handling missing data in 
 
 **Reason:** The `dropna(axis=1)` method is used to drop columns containing NaN (missing) values from the DataFrame. By specifying `axis=1`, the method operates along columns, removing any column that contains at least one NaN value.
 
+Sure! Here are the questions and answers formatted in Markdown:
+
+## 1.0 Extra – Theory RL & MDP, along with their answers and justifications:
+
+1. Reinforcement Learning Question:
+   Which type of learning does Reinforcement Learning (RL) belong to?
+   Options:
+   - A. Unsupervised Learning
+   - B. Supervised Learning
+   - C. Semi-Supervised Learning
+   - D. Self-Supervised Learning
+
+   Answer: A
+   Explanation: Reinforcement Learning (RL) belongs to the category of Unsupervised Learning. In RL, an agent learns to make decisions by interacting with an environment and receiving feedback (rewards) without explicit supervision.
+
+2. Markov Decision Process (MDP) Question:
+   What is the key characteristic of a Markov Decision Process (MDP)?
+   Options:
+   - A. It involves only a single state and multiple actions.
+   - B. The future state depends only on the current state and action.
+   - C. It requires labeled data for training the model.
+   - D. The agent makes decisions based on supervised learning.
+
+   Answer: B
+   Explanation: The key characteristic of a Markov Decision Process (MDP) is that the future state depends only on the current state and action taken by the agent. It follows the Markov property, which implies that the state transition probability is independent of previous states.
+
+3. Reinforcement Learning Question:
+   What is the primary goal of an agent in Reinforcement Learning (RL)?
+   Options:
+   - A. To classify data into different categories.
+   - B. To maximize cumulative rewards over time.
+   - C. To generate labeled data for supervised learning.
+   - D. To optimize model parameters using gradients.
+
+   Answer: B
+   Explanation: The primary goal of an agent in Reinforcement Learning (RL) is to maximize the cumulative rewards it receives from the environment over time. The agent aims to learn a policy that leads to the most rewarding actions in the long run.
+
+4. Markov Decision Process (MDP) Question:
+   Which components are essential for defining a Markov Decision Process (MDP)?
+   Options:
+   - A. State space, action space, and reward function.
+   - B. State space, decision space, and cost function.
+   - C. Observation space, action space, and transition probabilities.
+   - D. State space, decision space, and transition probabilities.
+
+   Answer: A
+   Explanation: The essential components for defining a Markov Decision Process (MDP) are the state space, action space, and reward function. The state space contains all possible states, the action space contains all possible actions, and the reward function defines the immediate reward received by the agent for taking a specific action in a state.
+
+5. Reinforcement Learning Question:
+   What is the role of an exploration strategy in Reinforcement Learning (RL)?
+   Options:
+   - A. To exploit the current knowledge to maximize rewards.
+   - B. To estimate the value function of the environment.
+   - C. To find the optimal policy by trying different actions.
+   - D. To convert the continuous state space to a discrete one.
+
+   Answer: C
+   Explanation: The role of an exploration strategy in Reinforcement Learning (RL) is to encourage the agent to try different actions in the environment. Exploration is essential to discover new, potentially more rewarding states and actions and to avoid getting stuck in suboptimal solutions.
+
+6. Markov Decision Process (MDP) Question:
+   What is the discount factor (gamma) used for in MDP?
+   Options:
+   - A. To reduce the size of the state space.
+   - B. To speed up the convergence of the value iteration algorithm.
+   - C. To control the impact of future rewards in the agent's decisions.
+   - D. To reduce the complexity of the action space.
+
+   Answer: C
+   Explanation: The discount factor (gamma) in Markov Decision Process (MDP) is used to control the impact of future rewards in the agent's decisions. A value of gamma close to 1 means the agent considers long-term rewards, while a value close to 0 makes the agent focus only on immediate rewards.
+
+7. Reinforcement Learning Question:
+   What is the main difference between value iteration and policy iteration algorithms in Reinforcement Learning (RL)?
+   Options:
+   - A. Value iteration is model-free, while policy iteration is model-based.
+   - B. Policy iteration iterates over policies, while value iteration iterates over value functions.
+   - C. Value iteration guarantees convergence to the optimal policy, while policy iteration doesn't.
+   - D. Policy iteration requires an initial policy, while value iteration does not.
+
+   Answer: B
+   Explanation: The main difference between value iteration and policy iteration algorithms in Reinforcement Learning (RL) is that policy iteration iterates over policies, evaluating and improving them, whereas value iteration iterates over value functions, updating the value estimates directly.
+
+8. Markov Decision Process (MDP) Question:
+   What is the purpose of the policy in Markov Decision Process (MDP)?
+   Options:
+   - A. To define the reward function of the environment.
+   - B. To compute the transition probabilities between states.
+   - C. To represent the optimal sequence of actions for the agent.
+   - D. To measure the performance of the agent.
+
+   Answer: C
+   Explanation: The policy in Markov Decision Process (MDP) represents the optimal sequence of actions for the agent to take in different states. It is a strategy that guides the agent in making decisions to maximize its cumulative rewards over time.
+
+9. Reinforcement Learning Question:
+   Which algorithm is commonly used to solve Reinforcement Learning problems when the state and action spaces are continuous?
+   Options:
+   - A. Q-Learning
+   - B. Deep Q-Network (DQN)
+   - C. Policy Gradient Methods
+   - D. Value Iteration
+
+   Answer: C
+   Explanation: Policy Gradient Methods are commonly used to solve Reinforcement Learning problems when the state and action spaces are continuous. They use gradient-based optimization to find the best policy that maximizes the expected cumulative reward.
+
+10. Markov Decision Process (MDP) Question:
+    What is the primary advantage of using a Markov Decision Process (MDP) in Reinforcement Learning (RL)?
+    Options:
+    - A. It is computationally efficient and requires less memory.
+    - B. It allows the agent to interact with the environment in real-time.
+    - C. It can handle only discrete state and action spaces.
+    - D. It models the environment as a Markov process with memoryless transitions.
+
+    Answer: D
+    Explanation: The primary advantage of using a Markov Decision Process (MDP) in Reinforcement Learning (RL) is that it models the environment as a Markov process with memoryless transitions. This allows RL algorithms to efficiently estimate value functions and policy without needing to remember the complete history of past states and actions.
+
+    
