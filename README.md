@@ -253,7 +253,251 @@ Sure! Here are the questions and answers formatted in Markdown, with the answer 
 
     
 ----
+## Pandas:
 
+1. **Question:**
+    What is Pandas?
+
+    **Options:**
+    - a) A high-level programming language
+    - b) A data visualization library for Python
+    - c) A library for data manipulation and analysis in Python
+    - d) A web development framework
+
+    **Answer:** c
+    **Explanation:** Pandas is a library for data manipulation and analysis in Python. It provides data structures and functions that allow easy and efficient handling of structured data.
+
+2. **Question:**
+    Which Pandas data structure is used to represent a two-dimensional, size-mutable, and heterogeneous tabular data?
+
+    **Options:**
+    - a) Set
+    - b) DataFrame
+    - c) Array
+    - d) Dictionary
+
+    **Answer:** b
+    **Explanation:** The correct data structure used to represent a two-dimensional, size-mutable, and heterogeneous tabular data is a DataFrame in Pandas. It is a fundamental data structure in Pandas and is similar to a spreadsheet or SQL table.
+
+3. **Question:**
+    How do you select a single column 'A' from a DataFrame df?
+
+    **Options:**
+    - a) df['A']
+    - b) df[A]
+    - c) df.loc['A']
+    - d) df.iloc['A']
+
+    **Answer:** a
+    **Explanation:** To select a single column 'A' from a DataFrame `df`, you use the syntax `df['A']`. This will return the specified column as a Pandas Series.
+
+4. **Question:**
+    What is the correct syntax to select multiple columns 'A' and 'B' from a DataFrame df?
+
+    **Options:**
+    - a) df['A', 'B']
+    - b) df[['A', 'B']]
+    - c) df[['A' 'B']]
+    - d) df['A'] + df['B']
+
+    **Answer:** b
+    **Explanation:** The correct syntax to select multiple columns 'A' and 'B' from a DataFrame `df` is `df[['A', 'B']]`. Using double square brackets `[[...]]` allows you to select multiple columns, and it returns a new DataFrame with the specified columns.
+
+5. **Question:**
+    What method is used to select rows from a DataFrame df based on specific index labels?
+
+    **Options:**
+    - a) df.loc[]
+    - b) df.iloc[]
+    - c) df.get()
+    - d) df.select()
+
+    **Answer:** a
+    **Explanation:** The method used to select rows from a DataFrame `df` based on specific index labels is `df.loc[]`. This method allows you to select rows using labels (index names).
+
+6. **Question:**
+    What method is used to select specific columns 'A' and 'B' and first 5 rows from a DataFrame df?
+
+    **Options:**
+    - a) df.get(0:5, ['A', 'B'])
+    - b) df.loc[['A', 'B'], 0:5]
+    - c) df.get_values('A', 'B')
+    - d) df.loc[0:5, ['A', 'B']]
+
+    **Answer:** d
+    **Explanation:** The method used to select specific columns 'A' and 'B' and first 5 rows from a DataFrame `df` is `df.loc[0:5, ['A', 'B']]`. This code will return a new DataFrame containing the rows from index 0 to 5 (inclusive) and the columns 'A' and 'B'.
+
+7. **Question:**
+    What is the purpose of the 'drop()' method in Pandas?
+
+    **Options:**
+    - a) To create a new DataFrame by merging two existing DataFrames
+    - b) To drop duplicate rows from a DataFrame
+    - c) To remove a specific column or row from a DataFrame
+    - d) To drop missing values from a DataFrame
+
+    **Answer:** c
+    **Explanation:** The purpose of the 'drop()' method in Pandas is to remove a specific column or row from a DataFrame. It allows you to drop either columns or rows based on the 'labels' parameter.
+
+8. **Question:**
+    How can you filter rows in a Pandas DataFrame based on a specific condition?
+
+    **Options:**
+    - a) Using the 'filter()' method
+    - b) Using the 'find()' method
+    - c) Using the 'search()' method
+    - d) Using boolean indexing or the 'query()' method
+
+    **Answer:** d
+    **Explanation:** You can filter rows in a Pandas DataFrame based on a specific condition using boolean indexing or the 'query()' method. Boolean indexing involves creating a boolean mask based on the condition and using it to select the rows that meet the condition. The 'query()' method allows you to filter rows using a more expressive syntax similar to SQL queries.
+
+9. **Question:**
+    What method is used to group data in a DataFrame df based on a column 'group_col'?
+
+    **Options:**
+    - a) df.group('group_col')
+    - b) df.group_by('group_col')
+    - c) df.groupby('group_col')
+    - d) df.group_data('group_col')
+
+    **Answer:** c
+    **Explanation:** The method used to group data in a DataFrame `df` based on a column 'group_col' is `df.groupby('group_col')`. This allows you to group the data by unique values in the specified column and perform aggregate operations on each group.
+
+10. **Question:**
+    How can you calculate the number of occurrences of each unique value in a column 'col' of a DataFrame df?
+
+    **Options:**
+    - a) df['col'].count()
+    - b) df.count_values('col')
+    - c) df['col'].value_counts()
+    - d) df.count('col')
+
+    **Answer:** c
+    **Explanation:** You can calculate the number of occurrences of each unique value in a column 'col' of a DataFrame `df` using the `df['col'].value_counts()` method. This method returns a Series with unique values as the index and the corresponding counts as the values.
+
+## Pandas:
+
+11. **Question:**
+    What does the info() method in Pandas provide?
+
+    **Options:**
+    - a) Summary statistics of the DataFrame
+    - b) Information about the data types, non-null counts, and memory usage of the DataFrame
+    - c) Description of the columns in the DataFrame
+    - d) Information about the index of the DataFrame
+
+    **Answer:** b
+    **Explanation:** The `info()` method in Pandas provides information about the data types, non-null counts, and memory usage of the DataFrame. It gives a concise summary of the DataFrame, including the number of non-null values in each column, the data type of each column, and the total memory usage.
+
+12. **Question:**
+    How can you use the info() method to check for missing values in a DataFrame?
+
+    **Options:**
+    - a) df.info()
+    - b) df.info(null_counts=True)
+    - c) df.info(missing_values=True)
+    - d) df.info(include_missing=True)
+
+    **Answer:** a
+    **Explanation:** You can use the `df.info()` method without any additional parameters to check for missing values in a DataFrame. The `info()` method provides information about non-null counts for each column, which indirectly tells you about the missing values because missing values are represented by NaN (Not a Number) in Pandas.
+
+13. **Question:**
+    By default, what percentile values are included in the output of the describe() method?
+
+    **Options:**
+    - a) 25th, 50th, 75th percentiles
+    - b) 5th, 25th, 50th (median), 75th, and 95th percentiles
+    - c) 10th, 50th (median), and 90th percentiles
+    - d) 25th and 75th percentiles
+
+    **Answer:** a
+    **Explanation:** By default, the `describe()` method in Pandas includes the 25th, 50th (median), and 75th percentiles in the output. These percentiles provide a summary of the distribution of numerical data in the DataFrame.
+
+14. **Question:**
+    How can you use the head() method to return the first 8 rows of a DataFrame df?
+
+    **Options:**
+    - a) df.head()
+    - b) df.head(5)
+    - c) df.head(8)
+    - d) df.head(n=8)
+
+    **Answer:** c
+    **Explanation:** You can use the `df.head(8)` method to return the first 8 rows of a DataFrame `df`. The `head()` method returns the specified number of rows from the beginning of the DataFrame.
+
+15. **Question:**
+    What is the default number of rows displayed when using df.head() or df.tail() methods?
+
+    **Options:**
+    - a) 5 rows
+    - b) 10 rows
+    - c) 15 rows
+    - d) 20 rows
+
+    **Answer:** a
+    **Explanation:** The default number of rows displayed when using `df.head()` or `df.tail()` methods is 5 rows. These methods are used to display the first or last few rows of the DataFrame, and by default, it shows the top/bottom 5 rows.
+
+16. **Question:**
+    How can you read a CSV file into a pandas DataFrame?
+
+    **Options:**
+    - a) pd.read_table()
+    - b) pd.read_csv()
+    - c) pd.read_file()
+    - d) pd.read_data()
+
+    **Answer:** b
+    **Explanation:** You can read a CSV file into a pandas DataFrame using the `pd.read_csv()` method. This function reads the CSV file and creates a DataFrame with the data from the file.
+
+17. **Question:**
+    What is the default aggregation function used by the groupby() method in pandas?
+
+    **Options:**
+    - a) mean
+    - b) median
+    - c) sum
+    - d) count
+
+    **Answer:** a
+    **Explanation:** The default aggregation function used by the `groupby()` method in pandas is the mean. When you group data using `groupby()`, by default, pandas calculates the mean value for each group.
+
+18. **Question:**
+    How do you calculate the correlation between columns 'A' and 'B' in a DataFrame?
+
+    **Options:**
+    - a) df.correlation('A', 'B')
+    - b) df.corr('A', 'B')
+    - c) df.corr('A')['B']
+    - d) df['A'].corr(df['B'])
+
+    **Answer:** d
+    **Explanation:** You can calculate the correlation between columns 'A' and 'B' in a DataFrame using the `df['A'].corr(df['B'])` syntax. The `corr()` method calculates the correlation coefficient between two columns and returns a single value.
+
+19. **Question:**
+    What is the default method for combining DataFrames in pandas?
+
+    **Options:**
+    - a) merge()
+    - b) join()
+    - c) combine()
+    - d) concat()
+
+    **Answer:** d
+    **Explanation:** The default method for combining DataFrames in pandas is the `concat()` function. This function is used to concatenate DataFrames vertically (along rows) or horizontally (along columns).
+
+20. **Question:**
+    What is the purpose of the transpose() method in pandas?
+
+    **Options:**
+    - a) To sort the rows and columns in a DataFrame.
+    - b) To convert a DataFrame into a Series.
+    - c) To switch rows and columns in a DataFrame.
+    - d) To drop rows with missing values in a DataFrame.
+
+    **Answer:** c
+    **Explanation:** The purpose of the `transpose()` method in pandas is to switch rows and columns in a DataFrame. It returns a new DataFrame with rows and columns interchanged, effectively transposing the data.
+    
+-----
 
 # 1.0 NumPy, along with their answers and justifications:
 
