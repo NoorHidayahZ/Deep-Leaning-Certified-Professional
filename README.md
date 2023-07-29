@@ -745,7 +745,498 @@ Sure! Here are the questions and answers formatted in Markdown, with the answer 
     **Answer:** d
     **Explanation:** The correct answer is d. The `palette` parameter in Seaborn functions is used to specify the color palette for the plot. A color palette is a set of colors that can be applied to the elements in the plot, such as bars, lines, or points. By using different palettes, you can customize the appearance of the plot and make it visually appealing.
 
+## Machine Learning:
 
+1. **Question:**
+    What is Machine Learning?
+
+    **Options:**
+    - a) A branch of robotics
+    - b) A field of study that gives computers the ability to learn without being explicitly programmed
+    - c) A technique used to optimize database performance
+    - d) A type of natural language processing
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. Machine Learning is a field of study that focuses on developing algorithms and models that allow computers to learn and improve their performance on a specific task without being explicitly programmed for that task. It involves training models on data and using the learned patterns to make predictions or decisions.
+
+2. **Question:**
+    What is the main goal of machine learning?
+
+    **Options:**
+    - a) Data visualization
+    - b) Data manipulation
+    - c) Automating tasks without explicit programming
+    - d) Database management
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The main goal of machine learning is to automate tasks and make predictions or decisions without the need for explicit programming for each individual task. Machine learning algorithms learn from data and generalize patterns to new, unseen data, enabling automation and intelligent decision-making.
+
+3. **Question:**
+    What are the two main categories of machine learning?
+
+    **Options:**
+    - a) Supervised learning and unsupervised learning
+    - b) Reinforcement learning and deep learning
+    - c) Regression and classification
+    - d) Feature engineering and model evaluation
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. The two main categories of machine learning are supervised learning and unsupervised learning. In supervised learning, the algorithm learns from labeled data, where the input-output pairs are provided during training. In unsupervised learning, the algorithm learns from unlabeled data and aims to identify patterns or structures in the data without explicit output labels.
+
+4. **Question:**
+    Which type of machine learning algorithm uses input-output pairs for training?
+
+    **Options:**
+    - a) Unsupervised learning
+    - b) Reinforcement learning
+    - c) Supervised learning
+    - d) Feature engineering
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Supervised learning algorithms use input-output pairs for training. The algorithm learns from labeled data, where each input is associated with a corresponding output or label, and aims to learn the mapping between inputs and outputs to make predictions on new, unseen data.
+
+5. **Question:**
+    What is the primary objective of unsupervised learning?
+
+    **Options:**
+    - a) To make predictions based on labeled data
+    - b) To classify data into predefined categories
+    - c) To identify patterns and structures in data without labeled output
+    - d) To optimize model parameters using gradient descent
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The primary objective of unsupervised learning is to identify patterns and structures in the data without labeled output. Unsupervised learning algorithms work on unlabeled data and aim to find hidden patterns or groupings, making it useful for clustering or dimensionality reduction tasks.
+
+6. **Question:**
+    What is the primary objective of regression algorithms in machine learning?
+
+    **Options:**
+    - a) Predicting categorical labels
+    - b) Grouping data points into clusters
+    - c) Predicting continuous numerical values
+    - d) Making sequential decisions
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The primary objective of regression algorithms in machine learning is to predict continuous numerical values. Regression algorithms are used when the target variable is continuous, and the goal is to estimate a value based on input features.
+
+7. **Question:**
+    Which algorithm is commonly used for regression problems involving linear relationships between features and the target variable?
+
+    **Options:**
+    - a) Decision Tree
+    - b) K-Nearest Neighbors
+    - c) Support Vector Machines
+    - d) Linear Regression
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. Linear Regression is commonly used for regression problems involving linear relationships between features and the target variable. It fits a linear equation to the data and predicts continuous numerical values based on the input features.
+
+8. **Question:**
+    Which machine learning technique aims to mimic the way the human brain learns and processes information?
+
+    **Options:**
+    - a) Reinforcement learning
+    - b) Deep learning
+    - c) Unsupervised learning
+    - d) Feature engineering
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. Deep learning is a machine learning technique that aims to mimic the way the human brain learns and processes information. It involves building deep neural networks with multiple layers to learn hierarchical representations of data.
+
+9. **Question:**
+    Which of the following is not a supervised learning algorithm?
+
+    **Options:**
+    - a) Linear Regression
+    - b) K-Nearest Neighbors (KNN)
+    - c) K-Means Clustering
+    - d) Logistic Regression
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. K-Means Clustering is not a supervised learning algorithm; it is an unsupervised learning algorithm used for clustering data based on similarity.
+
+10. **Question:**
+    What is the output of Logistic Regression for binary classification problems?
+
+    **Options:**
+    - a) Continuous numerical values
+    - b) Probability scores between 0 and 1
+    - c) Categorical labels
+    - d) Feature importance scores
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. The output of Logistic Regression for binary classification problems is probability scores between 0 and 1. These scores represent the probability of an instance belonging to the positive class (class 1) in binary classification tasks.
+
+## Machine Learning:
+
+11. **Question:**
+    Which algorithm is commonly used for handling missing data in Machine Learning?
+
+    **Options:**
+    - a) K-Nearest Neighbors (KNN)
+    - b) K-Means Clustering
+    - c) Decision Trees
+    - d) Mean Imputation
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. Mean Imputation is a common technique used to handle missing data in machine learning. In this approach, missing values in a feature are replaced with the mean of the available data for that feature. It provides a simple way to fill in missing values while preserving the overall distribution of the feature.
+
+12. **Question:**
+    Which technique is used to reduce the dimensionality of data while preserving its variance?
+
+    **Options:**
+    - a) Principal Component Analysis (PCA)
+    - b) K-Means Clustering
+    - c) Decision Trees
+    - d) Support Vector Machines (SVM)
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. Principal Component Analysis (PCA) is a technique used for dimensionality reduction. It transforms the original features into a new set of uncorrelated variables (principal components) while retaining the most significant variance in the data. It is commonly used to reduce the number of features and simplify the representation of data.
+
+13. **Question:**
+    Which type of Machine Learning algorithm is used for anomaly detection tasks?
+
+    **Options:**
+    - a) Clustering
+    - b) Regression
+    - c) Classification
+    - d) One-Class SVM
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. One-Class SVM (Support Vector Machine) is a type of Machine Learning algorithm commonly used for anomaly detection tasks. It is designed to identify observations that are significantly different from the majority of the data and are considered anomalies or outliers.
+
+14. **Question:**
+    What is the purpose of feature scaling in data preprocessing?
+
+    **Options:**
+    - a) To convert categorical features to numerical format
+    - b) To convert numerical features to categorical format
+    - c) To standardize or normalize numerical features to a common scale
+    - d) To remove outliers from the dataset
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The purpose of feature scaling in data preprocessing is to standardize or normalize numerical features to a common scale. It ensures that features with different scales do not dominate the learning process and helps algorithms converge faster. Common scaling techniques include Min-Max Scaling and Standard Scaling.
+
+15. **Question:**
+    Which scaler is used to scale numerical features to have zero mean and unit variance?
+
+    **Options:**
+    - a) Min-Max Scaler
+    - b) Standard Scaler
+    - c) Robust Scaler
+    - d) Max Abs Scaler
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. Standard Scaler is used to scale numerical features to have zero mean and unit variance. It subtracts the mean from each feature and divides by the standard deviation, resulting in a feature with a mean of 0 and a variance of 1.
+
+16. **Question:**
+    In Min-Max Scaler, what is the minimum and maximum range of the scaled data?
+
+    **Options:**
+    - a) [-1, 1]
+    - b) [0, 1]
+    - c) [0, ∞]
+    - d) [-∞, +∞]
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. In Min-Max Scaler, the minimum and maximum range of the scaled data is [0, 1]. The values of the original feature are linearly scaled to fit within this range.
+
+17. **Question:**
+    In which scenario should you avoid using feature scaling?
+
+    **Options:**
+    - a) When the data contains missing values
+    - b) When using regression models
+    - c) When working with neural networks
+    - d) When features are already in the same scale
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. Feature scaling is not necessary when the features are already in the same scale. If all the features have similar scales, some algorithms, like decision trees or random forests, may not require scaling. However, for many other algorithms, it is generally beneficial to apply feature scaling to ensure that features with larger scales do not dominate the learning process.
+
+18. **Question:**
+    Which Python library is commonly used to split data into training and testing sets?
+
+    **Options:**
+    - a) NumPy
+    - b) Pandas
+    - c) Scikit-learn
+    - d) Matplotlib
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Scikit-learn (sklearn) is a popular Python library used for machine learning tasks. It includes a `train_test_split` function that is commonly used to split data into training and testing sets for model evaluation.
+
+19. **Question:**
+    How can you ensure that data is randomly shuffled before splitting into training and testing sets?
+
+    **Options:**
+    - a) By using the `shuffle=True` parameter in the `train_test_split()` function
+    - b) By using the `random_state` parameter in the `train_test_split()` function
+    - c) By using the `randomize=True` parameter in the `train_test_split()` function
+    - d) By using the `shuffle_data()` function from NumPy
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. By using the `shuffle=True` parameter in the `train_test_split()` function, the data will be randomly shuffled before splitting into training and testing sets. This ensures that the order of the data does not influence the split, which is important for obtaining unbiased evaluation results.
+
+20. **Question:**
+    How can you split the data into training and testing sets using Scikit-learn?
+
+    **Options:**
+    - a) `train_test_split(X, y)`
+    - b) `split_data(X, y, test_size=0.3)`
+    - c) `create_train_test(X, y, split_ratio=0.7)`
+    - d) `split_data(X, y, train_size=0.7)`
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. You can split the data into training and testing sets using Scikit-learn's `train_test_split(X, y)` function. This function takes input features `X` and target variable `y` as arguments and returns the split datasets for training and testing. The data split can be further customized using optional parameters like `test_size` to specify the proportion of the test set.
+
+## Machine Learning:
+
+21. **Question:**
+    What is the purpose of a validation set in Machine Learning?
+
+    **Options:**
+    - a) To train the model on a subset of data
+    - b) To evaluate the model's performance on unseen data during training
+    - c) To test the model's accuracy on the training data
+    - d) To improve the generalization of the model
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. A validation set in Machine Learning is used to evaluate the model's performance on unseen data during the training phase. It is essential to assess how well the model generalizes to new, unseen data. By validating the model on a separate set of data, we can identify and address issues like overfitting and assess the model's ability to make accurate predictions on new data.
+
+22. **Question:**
+    What is overfitting in Machine Learning?
+
+    **Options:**
+    - a) The model performs well on unseen data
+    - b) The model generalizes well to new data
+    - c) The model is too complex and fits noise in the training data
+    - d) The model is undertrained
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Overfitting in Machine Learning occurs when a model is too complex and captures noise or random fluctuations in the training data. As a result, the model performs well on the training data but fails to generalize to new, unseen data. Overfitting is a common issue, and it is crucial to detect and prevent it to build models that are reliable and accurate on unseen data.
+
+23. **Question:**
+    What evaluation metric is commonly used for regression models to measure the average prediction error?
+
+    **Options:**
+    - a) Accuracy
+    - b) F1-score
+    - c) Mean Absolute Error (MAE)
+    - d) Precision
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. For regression models, the commonly used evaluation metric to measure the average prediction error is the Mean Absolute Error (MAE). MAE is calculated as the average of the absolute differences between the predicted values and the actual values. It provides a measure of how close the predictions are to the true values on average.
+
+24. **Question:**
+    Which evaluation metric for regression models squares the errors before averaging them, giving higher weight to larger errors?
+
+    **Options:**
+    - a) Root Mean Squared Error (RMSE)
+    - b) Mean Absolute Error (MAE)
+    - c) Mean Squared Error (MSE)
+    - d) R-squared (R2)
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The evaluation metric that squares the errors before averaging them, giving higher weight to larger errors, is the Mean Squared Error (MSE). It is calculated as the average of the squared differences between the predicted values and the actual values. MSE penalizes larger errors more than smaller errors, which can be useful in certain scenarios.
+
+25. **Question:**
+    What is the advantage of using Root Mean Squared Error (RMSE) over Mean Squared Error (MSE)?
+
+    **Options:**
+    - a) RMSE is easier to calculate.
+    - b) RMSE is always positive, making it easier to interpret.
+    - c) RMSE scales the errors to the original units of the target variable.
+    - d) RMSE gives higher weight to smaller errors.
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The advantage of using Root Mean Squared Error (RMSE) over Mean Squared Error (MSE) is that RMSE scales the errors to the original units of the target variable. While both metrics measure the average prediction error, RMSE takes the square root of MSE, which brings the evaluation metric back to the same unit as the target variable. This makes it easier to interpret the model's performance in the original data scale.
+
+26. **Question:**
+    In regression, what does the term "residuals" refer to?
+
+    **Options:**
+    - a) The difference between the predicted values and the actual values
+    - b) The features used to train the model
+    - c) The target variable used for prediction
+    - d) The test set data points
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. In regression, the term "residuals" refers to the differences between the predicted values and the actual values of the target variable. Residuals represent the prediction errors made by the model on the training or test data. Ideally, the residuals should be small, indicating that the model's predictions are close to the true values.
+
+27. **Question:**
+    How is accuracy calculated for a classification model?
+
+    **Options:**
+    - a) Sum of true positive and true negative divided by the total number of samples
+    - b) Sum of false positive and false negative divided by the total number of samples
+    - c) Sum of true positive and true negative divided by the total number of positive
+    - d) Sum of true positive and true negative divided by the total number of samples minus one
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. Accuracy is calculated as the sum of true positives and true negatives divided by the total number of samples in a classification model. It represents the proportion of correct predictions out of all the predictions made by the model.
+
+28. **Question:**
+    Which of the following is a limitation of using accuracy as the evaluation metric for imbalanced datasets?
+
+    **Options:**
+    - a) Accuracy does not consider true negatives.
+    - b) Accuracy is biased towards the majority class.
+    - c) Accuracy is sensitive to outliers in the data.
+    - d) Accuracy cannot be calculated for multi-class classification.
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. Accuracy as an evaluation metric for imbalanced datasets is biased towards the majority class. In imbalanced datasets, where one class is significantly more prevalent than the others, a classifier that predicts only the majority class can achieve high accuracy. However, such a classifier may fail to identify the minority class instances correctly, which is the more critical concern in imbalanced scenarios.
+
+29. **Question:**
+    How is Recall calculated for a classification model?
+
+    **Options:**
+    - a) Sum of TP and TN divided by the total number of samples
+    - b) Sum of FP and FN divided by the total number of samples
+    - c) Number of TP divided by the sum of TP and FN
+    - d) Number of TN divided by the sum of TN and FP
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Recall, also known as Sensitivity or True Positive Rate (TPR), is calculated as the number of true positives (TP) divided by the sum of true positives and false negatives (FN). It measures the ability of the model to correctly identify positive instances out of all actual positive instances.
+
+30. **Question:**
+    Which evaluation metric is more suitable for situations where minimizing false negatives is critical?
+
+    **Options:**
+    - a) Accuracy
+    - b) Precision
+    - c) Recall
+    - d) F1-score
+
+    **Answer:** c
+    **Explanation
+
+    ## Machine Learning:
+
+31. **Question:**
+    In a binary classification problem, what does a false positive (FP) represent?
+
+    **Options:**
+    - a) The model correctly predicts the positive class.
+    - b) The model incorrectly predicts the positive class.
+    - c) The model correctly predicts the negative class.
+    - d) The model incorrectly predicts the negative class.
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. In a binary classification problem, a false positive (FP) occurs when the model incorrectly predicts a positive class when the true class is negative. In other words, the model falsely identifies an instance as belonging to the positive class when it actually belongs to the negative class.
+
+32. **Question:**
+    Which evaluation metric is more suitable for situations where minimizing false positives is critical?
+
+    **Options:**
+    - a) Accuracy
+    - b) Precision
+    - c) Recall
+    - d) F1-score
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. Precision is more suitable for situations where minimizing false positives is critical. Precision represents the proportion of true positive predictions out of all positive predictions made by the model. In scenarios where false positive predictions can have significant consequences (e.g., in medical diagnoses or fraud detection), high precision is crucial to minimize false alarms and ensure accurate positive predictions.
+
+33. **Question:**
+    Which evaluation metric is commonly used for imbalanced datasets to assess the model's ability to correctly identify the positive class?
+
+    **Options:**
+    - a) Accuracy
+    - b) Precision
+    - c) Recall
+    - d) F1-score
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. Recall, also known as Sensitivity or True Positive Rate (TPR), is commonly used for imbalanced datasets to assess the model's ability to correctly identify the positive class. Recall is calculated as the number of true positives divided by the sum of true positives and false negatives. It represents the proportion of actual positive instances that are correctly predicted by the model.
+
+34. **Question:**
+    How is the F1 Score calculated for a classification model?
+
+    **Options:**
+    - a) Sum of true positive and true negative divided by total number of samples
+    - b) The sum of false positive and false negative divided by the total number of samples
+    - c) The harmonic mean of Precision and Recall
+    - d) The number of true positive divided by the sum of true positive and false positive
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The F1 Score is calculated as the harmonic mean of Precision and Recall. It balances the trade-off between Precision and Recall, providing a single metric that considers both true positive rate and positive prediction accuracy. The F1 Score is especially useful when the dataset is imbalanced, as it gives equal importance to both precision and recall.
+
+35. **Question:**
+    Which of the following metrics considers both Precision and Recall for evaluating a classification model?
+
+    **Options:**
+    - a) Accuracy
+    - b) F1 Score
+    - c) R-squared (R2)
+    - d) Mean Absolute Error (MAE)
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. The F1 Score is the metric that considers both Precision and Recall for evaluating a classification model. It provides a balance between precision (the ability to avoid false positives) and recall (the ability to detect true positives) and is especially useful when dealing with imbalanced datasets.
+
+36. **Question:**
+    What is the Confusion Matrix used for in Machine Learning?
+
+    **Options:**
+    - a) Measure the model's performance in predicting categorical outcomes
+    - b) Measure the model's performance in predicting continuous outcomes
+    - c) Evaluate the model's generalization on unseen data
+    - d) Assess the model's performance by comparing predicted and actual results
+
+    **Answer:** d
+    **Explanation:** The correct answer is d. The Confusion Matrix is used to assess the performance of a classification model by comparing its predicted results to the actual results. It provides a tabulation of true positive (TP), true negative (TN), false positive (FP), and false negative (FN) predictions made by the model.
+
+37. **Question:**
+    How is the Confusion Matrix represented for a binary classification problem?
+
+    **Options:**
+    - a) A 1x1 matrix
+    - b) A 2x2 matrix
+    - c) A 3x3 matrix
+    - d) A square matrix with diagonal elements representing true positive and true negative
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. The Confusion Matrix for a binary classification problem is represented by a 2x2 matrix. It has four elements: true positive (TP), false positive (FP), true negative (TN), and false negative (FN).
+
+38. **Question:**
+    What does the main diagonal of the Confusion Matrix represent?
+
+    **Options:**
+    - a) True Positive (TP) and True Negative (TN) predictions
+    - b) False Positive (FP) and False Negative (FN) predictions
+    - c) Correctly classified samples
+    - d) Incorrectly classified samples
+
+    **Answer:** a
+    **Explanation:** The correct answer is a. The main diagonal of the Confusion Matrix represents the True Positive (TP) and True Negative (TN) predictions made
+
+## Machine Learning:
+
+39. **Question:**
+    What does a high value in the False Positive (FP) cell of the Confusion Matrix suggest?
+
+    **Options:**
+    - a) The model correctly identifies all positive samples.
+    - b) The model incorrectly predicts the positive class.
+    - c) The model has a high Precision score.
+    - d) The model has a high Recall score.
+
+    **Answer:** b
+    **Explanation:** The correct answer is b. A high value in the False Positive (FP) cell of the Confusion Matrix suggests that the model is incorrectly predicting the positive class. In other words, the model is making a significant number of false positive predictions, i.e., it is classifying negative instances as positive. This can lead to higher false alarms and may indicate a lack of precision in the model's positive predictions.
+
+40. **Question:**
+    Which element in the Confusion Matrix represents the number of false negative predictions?
+
+    **Options:**
+    - a) Top-left element
+    - b) Top-right element
+    - c) Bottom-left element
+    - d) Bottom-right element
+
+    **Answer:** c
+    **Explanation:** The correct answer is c. The bottom-left element in the Confusion Matrix represents the number of false negative (FN) predictions. False negatives occur when the model incorrectly predicts a negative class when the true class is positive. It means that the model fails to detect positive instances, which can be a critical issue, especially in scenarios where false negatives have severe consequences.
+
+
+# UNTIL HERE
 -----
 
 # 1.0 NumPy, along with their answers and justifications:
